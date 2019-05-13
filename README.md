@@ -1,5 +1,8 @@
-# UI para nossos produtos
+# Library de SASS/CSS
 
-UI para Interface de produtos -  © Copyright 2019 Gempi Software. All rights reserved.
+Components construidos com SASS para Interface de nossos produtos -  
 
-Ainda estamos elaborando esse Readme
+
+© Copyright 2019 Gempi Software. All rights reserved.
+
+Em breve..
