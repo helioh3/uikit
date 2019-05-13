@@ -1,0 +1,22 @@
+{
+  "name": "gui",
+  "version": "1.0.0",
+  "description": "Interface of Products Gempi software MEI",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/app.scss css/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helioh3/gui.git"
+  },
+  "author": "Helio Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helioh3/gui/issues"
+  },
+  "homepage": "https://github.com/helioh3/gui#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
