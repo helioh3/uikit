@@ -2,6 +2,6 @@
 
 Components construidos com SASS para Interface de nossos produtos.
 
-© Copyright 2019 Gempi Software. All rights reserved.
+Gempi Software © 2019. All rights reserved.
 
 Em breve..
