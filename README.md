@@ -2,6 +2,6 @@
 
 Components construidos com SASS para Interface de nossos produtos.
 
-Gempi Software © 2019. All rights reserved.
+Welog Software © 2019. All rights reserved.
 
 Em breve..
