@@ -1,5 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    height: 0px;
-}
+@import 'helpers/mixins';
+@import 'helpers/functions';
+@import 'helpers/variables';
+
+@import 'core/base';
+@import 'core/animations';
+@import 'core/typography';
+@import 'core/layout';
