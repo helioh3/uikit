@@ -1,7 +1,7 @@
 # Componens de SASS/CSS
 
-Construidos com SASS/CSS para Interface de nossos produtos.
+Construido com SASS/CSS, para Interface de nossos produtos.
 
-Welog software © 2019. All rights reserved.
+Welog software © 2020. All rights reserved.
 
-Em breve..
+Coming soon!
