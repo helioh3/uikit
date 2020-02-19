@@ -1,7 +1,8 @@
-# Library de SASS/CSS
+# Painel Web para nosso ERP
 
 Components construidos com SASS para Interface de nossos produtos.
 
-Welog software © 2019. All rights reserved.
 
-Em breve..
+Front-end  - Welog software © Copyright 2020 Welog software. All rights reserved.
+
+Em breve!
