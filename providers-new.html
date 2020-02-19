@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/log.png" sizes="42x42">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,600i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Fornecedor novo</title>
+</head>
+<body>
+    <!-- CONTEUDO DO SISTEMA -->
+    <div class="container">
+        <header class="admin-header">
+            <nav class="navbar">
+            
+                <div class="brand">
+                    <a href="#"><img  src="images/logo.png" class="brand__logo"  alt="Welog Logo"></a>
+                </div>
+            
+                <ul class="menu-nav">
+                    <li><a href="index.html" class="menu-nav__item">Inicio</a></li>
+                    <li><a href="#" class="menu-nav__item">Despesas</a></li>
+                    <li><a href="cadastro.html" class="menu-nav__item">Cadastros</a></li>
+                    <li><a href="#" class="menu-nav__item">Relatórios</a></li>
+                </ul>
+
+                <div class="menu-user">
+
+                    <li class="menu-user__item">
+                        <svg class="feather menu-user__icon">
+                            <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#bell"/>
+                        </svg>
+                        <span class="menu-user__notification">68</span>
+                    </li>
+
+                    <li class="menu-user__item">
+                        <span class="menu-user__name">Natanael</span>
+                        <img src="images/natan.jpg" class="menu-user__photo" alt="">
+                        
+                    </li>
+        
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- CONTEUDO DO SISTEMA -->
+        <main class="admin-main">
+            <div class="box">
+                <nav class="breadcrumb">
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="companies.html">fornecedor</a></li>
+                    <li><a href="#" class="active">novo</a></li>
+                </nav>  
+
+                <nav class="tabs">
+                    <button class="tabs__item tabs__item--active">Novo</button>
+                    <!-- <button class="tabs__item">Produtos</button> -->
+                </nav>
+                <div class="tabs-container">
+
+                     <!-- //CADASTRO PESSOA FISICA -->
+                    <div class="box-form">
+                        <h2 class="box-form__title">Dados de Pessoa Fisica</h2>
+                        
+                        <div class="box-field">
+                            <div class="field">
+                                <label class="field__label">Logo ou Foto</label>
+                                <input class="field__input" type="file"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Nome</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+                            <div class="field">
+                                <label class="field__label">CPF</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+                            <div class="field">
+                                <label class="field__label">RG</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+                            <div class="field">
+                                <label class="field__label">Sexo</label>
+                                <div class="field__select">
+                                    <select>
+                                        <option value="">Masculino</option>
+                                        <option value="">Feminino</option>
+                                    </select> 
+                                </div>
+                            </div>
+   
+                        </div>
+                    </div>
+
+                     <!-- //CADASTRO PESSOA JURIDICA -->
+                    <div class="box-form">
+                        <h2 class="box-form__title">Dados Pessoa Jurídica</h2>
+                        <div class="box-field">
+                           
+                            <div class="field">
+                                <label class="field__label">Fantasia</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">CNPJ</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Inscrição Estadual</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Atuação</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- DADOS GERAIS -->
+                    <div class="box-form">
+                        <h2 class="box-form__title">Dados Gerais</h2>
+                        <div class="box-field">
+                            
+                            <div class="field">
+                                <label class="field__label">CEP</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Estado</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Cidade</label>
+                                <div class="field__select">
+                                    <select>
+                                        <option value="">Dianopolis</option>
+                                        <option value="">Bahia</option>
+                                        <option value="">Selecione</option>
+                                    </select> 
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Telefone</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label">Endereço</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+                            <div class="field">
+                                <label class="field__label">E-mail</label>
+                                <input class="field__input" type="text"> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="box-form">
+                        <h2 class="box-form__title">Informções extra</h2>
+                        <div class="box-field">
+                            <div class="field">
+                                <label>Observação</label>
+                                 <textarea cols="30" rows="3"></textarea>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="box-button">
+                        <button class="but secundary">Cancelar</button>
+                        <button class="but primary">Salvar</button>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </main>
+        
+        <!-- RODAPE DO SISTEMA -->
+        <footer class="admin-footer">
+            <div class="menu-footer">      
+                <img src="images/logo-footer.png" class="menu-footer__logo-footer" alt="">
+                <li><a href="#" class="menu-footer__item">sobre</a></li>
+                <li><a href="#" class="menu-footer__item">ajuda</a></li>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

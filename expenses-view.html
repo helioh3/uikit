@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/log.png" sizes="42x42">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,600i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>teste</title>
+</head>
+<body>
+    <!-- CONTEUDO DO SISTEMA -->
+    <div class="container">
+        <header class="admin-header">
+            <nav class="navbar">
+            
+                <div class="brand">
+                    <!-- <a href="#"><img  src="images/logo.png" class="brand__logo" width="189" alt="Welog Logo"></a> -->
+                </div>
+            
+                <ul class="menu-nav">
+                    <li><a href="index.html" class="menu-nav__item">Inicio</a></li>
+                    <li><a href="expenses.html" class="menu-nav__item">Despesas</a></li>
+                    <li><a href="#" class="menu-nav__item">Cadastros</a></li>
+                    <li><a href="#" class="menu-nav__item">Relatórios</a></li>
+                </ul>
+
+                <div class="menu-user">
+
+                    <li class="menu-user__item">
+                        <svg class="feather menu-user__icon">
+                            <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#bell"/>
+                        </svg>
+                        <span class="menu-user__notification">68</span>
+                    </li>
+
+                    <li class="menu-user__item">
+                        <span class="menu-user__name">Natanael</span>
+                        <img src="images/natan.jpg" class="menu-user__photo" alt="">
+                        
+                    </li>
+        
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- CONTEUDO DO SISTEMA -->
+        <main class="admin-main">
+            <div class="box">
+                <nav class="breadcrumb">
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">despesa</a></li>
+                    <li><a href="#" class="active">visualizar</a></li>
+                </nav>
+
+                <nav class="tabs">
+                    <button class="tabs__item tabs__item--active">Despesas</button>
+                    <!-- <button class="tabs__item">Produtos</button> -->
+                </nav>
+
+                <div class="tabs-container">
+                    <div class="box-but">
+                        
+                        <div class="box-but-left">
+                            <button class="but printer">
+                                <svg class="feather">
+                                    <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#arrow-left"></use>
+                                </svg>
+                                Voltar
+                            </button>
+
+                        </div>
+
+                        <div class="box-but-right">
+                            <button class="but printer ma-r-small">
+                                <svg class="feather">
+                                    <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#dollar-sign"></use>
+                                </svg>
+                                
+                            </button>
+
+                            <button class="but printer ma-r-small">
+                                <svg class="feather">
+                                    <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#printer"></use>
+                                </svg>
+                                
+                            </button>
+
+                            <button class="but printer ma-r-small">
+                                <svg class="feather">
+                                    <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#edit-2"></use>
+                                </svg>
+                            </button>
+
+                            <button class="but printer">
+                                <svg class="feather">
+                                    <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#trash-2"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="box-form view-form">
+                        <h2 class="box-form__title">Dados da despesa</h2>
+                        
+                        <div class="box-field">
+                            <div class="field">
+                                <label class="field__label">N. Nota Fiscal</label>
+                                <input class="field__input" type="text" placeholder="digite alguma coisa" disabled> 
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Fornecedor</label>
+                                <div class="field__select">
+                                    <select disabled>
+                                        <option value="">Selecione</option>
+                                        <option value="">Selecione</option>
+                                        <option value="">Selecione</option>
+                                    </select> 
+                                </div>
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Categoria</label>
+                                <div class="field__select">
+                                    <select disabled>
+                                        <option value="">Selecione</option>
+                                        <option value="">Selecione</option>
+                                        <option value="">Selecione</option>
+                                    </select> 
+                                </div>
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Empresa de Origem</label>
+                                <div class="field__select">
+                                    <select disabled>
+                                        <option value="">Selecione</option>
+                                        <option value="">testestestestestestestestest</option>
+                                        <option value="">Selecione</option>
+                                    </select> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-form view-form">
+                        <h2 class="box-form__title">Dados da despesa</h2>
+                       
+                        <div class="box-field">
+                            <div class="field">
+                                <label class="field__label">Valor Total(R$)</label>
+                                <input class="field__input" type="number" disabled> 
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Data de Competência</label>
+                                <input class="field__input" type="date" disabled> 
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Parcelamento</label>
+                                <div class="field__select">
+                                    <select disabled>
+                                        <option value="">Selecione</option>
+                                        <option value="">1x</option>
+                                        <option value="">2x</option>
+                                    </select> 
+                                </div>
+                            </div>
+                    
+                            <div class="field">
+                                <label class="field__label">Conta Bancária</label>
+                                <div class="field__select">
+                                    <select disabled>
+                                        <option value="">Selecione</option>
+                                        <option value="">Banco do Brasil</option>
+                                        <option value="">Sicredi</option>
+                                    </select> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-table">
+                            <table class="field-table">
+                            <thead>
+                                <tr>
+                                    <th>Parcela</th>
+                                    
+                                    <th>Vencimento</th>
+                                    <th>Data / Pagamento</th>
+                                    <th>Comprovante</th>
+                                    <th>Valor(R$)</th>
+                                    <th></th>
+                                </tr>
+                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1/3</td>
+                                    
+                                    <td>
+                                        <div class="field">
+                                            <input type="date" class="field__input" disabled> 
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input class="field__input" type="date" disabled> 
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <button class="but printer ma-r-small">
+                                            <svg class="feather">
+                                                <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#printer"></use>
+                                            </svg>
+                                            
+                                        </button>
+                                    </td>
+
+                                    <td>R$ 200,00</td>
+                                    <td>
+                                        <button class="but but-icon" disabled>
+                                            <svg class="feather menu-user__icon">
+                                                <use xlink:href="node_modules/feather-icons/dist/feather-sprite.svg#thumbs-up"/>
+                                            </svg>
+                                        </button> 
+                                    </td>
+                                </tr>
+                                
+                
+                            </tbody>
+                        </table>
+                        </div>
+
+                    
+                    </div> 
+                    
+                    <div class="box-form view-form">
+                        <h2 class="box-form__title">Informções extra</h2>
+                        <div class="box-field">
+                            <div class="field">
+                                <label>Observação</label>
+                                 <textarea cols="30" rows="3" disabled></textarea>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                
+
+
+
+
+            </div>
+        </main>
+        
+        <!-- RODAPE DO SISTEMA -->
+        <footer class="admin-footer">
+            <div class="menu-footer">      
+                <img src="images/logo-footer.png" class="menu-footer__logo-footer" alt="">
+                <li><a href="#" class="menu-footer__item">sobre</a></li>
+                <li><a href="#" class="menu-footer__item">ajuda</a></li>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

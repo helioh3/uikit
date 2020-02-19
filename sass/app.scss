@@ -1,8 +1,31 @@
 @import 'helpers/mixins';
 @import 'helpers/functions';
 @import 'helpers/variables';
+@import 'helpers/utilities';
+
+
+@import 'core/minireset';
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/breadcrumb';
+@import 'components/tabs';
+@import 'components/tables';
+@import 'components/search';
+@import 'components/info';
+@import 'components/users';
+@import 'components/categories';
+
 
 @import 'core/base';
-@import 'core/animations';
 @import 'core/typography';
-@import 'core/layout';
+
+@import 'pages/back/dashboard';
+@import 'pages/back/expenses-view';
+@import 'pages/back/footer';
+@import 'pages/back/login';
+
+
+@import 'pages/front/home';
+
+
