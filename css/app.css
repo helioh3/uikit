@@ -123,6 +123,46 @@ th {
   th:not([align]) {
     text-align: left; }
 
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: var(--color-green-light-1);
+  background-size: cover;
+  color: var(--color-grey-dark); }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 6vh;
+  grid-template-areas: "admin-header" "admin-main" "admin-footer"; }
+
+/* ===========================
+    PAGE DASHBOARD
+=============================*/
+.admin-header {
+  background-color: var(--color-blue-dark);
+  grid-area: admin-header;
+  display: flex; }
+
+.admin-main {
+  grid-area: admin-main;
+  flex: 1; }
+
+.box {
+  padding: 1rem 0;
+  width: 85%;
+  margin: 0 auto; }
+
+.admin-footer {
+  color: white;
+  grid-area: admin-footer; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
 .navbar {
   font-size: 1.6rem;
   font-weight: 600;
@@ -190,6 +230,8 @@ th {
   margin-bottom: 1rem; }
 
 .but {
+  font-family: inherit;
+  font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   border-radius: .7rem;
@@ -216,7 +258,7 @@ th {
   border-bottom: 0.4rem solid rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: .8rem;
   border-bottom-right-radius: .8rem;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2rem;
   cursor: pointer; }
   .printer:hover {
     background-color: rgba(6, 166, 84, 0.5); }
@@ -263,7 +305,7 @@ th {
   border-top-right-radius: 0;
   border-bottom-left-radius: .8rem;
   border-bottom-right-radius: .0rem;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   cursor: pointer; }
   .prev .feather {
     stroke: var(--color-blue-dark); }
@@ -279,7 +321,7 @@ th {
   border-bottom-left-radius: .0rem;
   border-bottom-right-radius: .8rem;
   color: #fff;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   cursor: pointer; }
   .next .feather {
     stroke: var(--color-blue-dark); }
@@ -464,6 +506,8 @@ th {
   border-bottom: 1px solid var(--color-grey1);
   margin-bottom: 1px; }
   .tabs__item {
+    font-family: inherit;
+    font-size: 1.2rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
     background-color: #D4D9D8;
@@ -655,46 +699,6 @@ th {
     margin-right: 2rem; }
   .category .al-right {
     display: flex; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  background-color: var(--color-green-light-1);
-  background-size: cover;
-  color: var(--color-grey-dark); }
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 5rem 1fr 6vh;
-  grid-template-areas: "admin-header" "admin-main" "admin-footer"; }
-
-/* ===========================
-    PAGE DASHBOARD
-=============================*/
-.admin-header {
-  background-color: var(--color-blue-dark);
-  grid-area: admin-header;
-  display: flex; }
-
-.admin-main {
-  grid-area: admin-main;
-  flex: 1; }
-
-.box {
-  padding: 1rem 0;
-  width: 85%;
-  margin: 0 auto; }
-
-.admin-footer {
-  color: white;
-  grid-area: admin-footer; }
-
-body {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  line-height: 1.5; }
 
 .box-but-right {
   display: flex; }

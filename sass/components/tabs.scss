@@ -3,8 +3,11 @@
     display: flex;
     border-bottom: 1px solid var(--color-grey1);
     margin-bottom: 1px;
+    
 
     &__item{
+        font-family: inherit;
+        font-size: 1.2rem;
         border-top-left-radius: .5rem;
         border-top-right-radius: .5rem;
         background-color: #D4D9D8;

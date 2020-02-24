@@ -5,6 +5,9 @@
 
 
 @import 'core/minireset';
+@import 'core/base';
+@import 'core/typography';
+
 @import 'components/navbar';
 @import 'components/buttons';
 @import 'components/forms';
@@ -16,9 +19,6 @@
 @import 'components/users';
 @import 'components/categories';
 
-
-@import 'core/base';
-@import 'core/typography';
 
 @import 'pages/back/dashboard';
 @import 'pages/back/expenses-view';

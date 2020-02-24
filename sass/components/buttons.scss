@@ -6,7 +6,8 @@
     margin-bottom: 1rem;
 }
 .but{
- 
+    font-family: inherit;
+    font-size: 1.2rem;
     font-weight: bold;
     display: flex;
     border-radius: .7rem;
@@ -38,7 +39,7 @@
     border-bottom: .4rem solid rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: .8rem;
     border-bottom-right-radius: .8rem;
-    padding: 1rem 2rem;
+    padding: 1.2rem 2rem;
     cursor: pointer;
     
     &:hover{
@@ -106,7 +107,7 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: .8rem;
     border-bottom-right-radius: .0rem; 
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     cursor: pointer;
 
     .feather{
@@ -127,7 +128,7 @@
     border-bottom-left-radius: .0rem;
     border-bottom-right-radius: .8rem;
     color: #fff;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     cursor: pointer;
 
     .feather{
