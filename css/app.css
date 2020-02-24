@@ -29,6 +29,12 @@
 .ma-r-small {
   margin-right: .5rem; }
 
+.ma-r-medium {
+  margin-right: 1rem; }
+
+.ma-r-big {
+  margin-right: 1.5rem; }
+
 .ma-l {
   margin-left: 1rem; }
 
